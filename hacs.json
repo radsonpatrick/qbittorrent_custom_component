@@ -1,0 +1,10 @@
+{
+    "name": "qbittorrent_custom",
+    "country": "BR",
+    "render_readme": true,
+    "domains": [
+      "sensor",
+      "switch",
+      "number"
+    ]
+  }
