@@ -32,7 +32,7 @@ Custom component to get  information  qBitTorrent for the home assistant
 
 ```yaml
 sensor:
-  - platform: qbittorrent
+  - platform: custom_qbittorrent 
     name: qbit  #optional
     host: "http://hostname:8080"
     username: "admin"
@@ -65,7 +65,7 @@ sensor:
 
 ```yaml
 switch:
-  - platform: qbittorrent
+  - platform: custom_qbittorrent 
     name: qbit #optional
     host: "http://hostname:8080"
     username: "admin"
